@@ -96,6 +96,6 @@ void loop() {
   humidity->save(event.relative_humidity);
 
   // wait 5 seconds (5000 milliseconds == 5 seconds)
-  delay(5000);
+  delay(000);
 
 }
