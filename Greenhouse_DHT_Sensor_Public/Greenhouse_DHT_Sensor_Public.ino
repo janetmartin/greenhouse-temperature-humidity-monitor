@@ -17,7 +17,6 @@
 // and any additional configuration needed for WiFi, cellular,
 // or ethernet clients.
 #include "config.h"
-
 /************************ Example Starts Here *******************************/
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
@@ -96,6 +95,6 @@ void loop() {
   humidity->save(event.relative_humidity);
 
   // wait 5 seconds (5000 milliseconds == 5 seconds)
-  delay(000);
+  delay(10000);
 
 }

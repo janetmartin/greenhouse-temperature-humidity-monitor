@@ -3,9 +3,13 @@
 // visit io.adafruit.com if you need to create an account,
 // or if you need your Adafruit IO key.
 
-#define IO_USERNAME "IO_USERNAME"
-#define IO_KEY "IO_KEY"
+//#define IO_USERNAME "IO_USERNAME"
+//#define IO_KEY "IO_KEY"
+//#define WIFI_SSID "WIFI_SSID"
+//#define WIFI_PASS "WIFI_PASS"
 
+//if not using gitignore to manage a password file like secrets.h, comment out below, and uncomment the definitions above
+#include "secrets.h"
 /******************************* WIFI **************************************/
 
 // the AdafruitIO_WiFi client will work with the following boards:
@@ -20,9 +24,6 @@
 //   - Adafruit AirLift Breakout -> https://www.adafruit.com/product/4201
 //   - Adafruit AirLift Shield -> https://www.adafruit.com/product/4285
 //   - Adafruit AirLift FeatherWing -> https://www.adafruit.com/product/4264
-
-#define WIFI_SSID "WIFI_SSID"
-#define WIFI_PASS "WIFI_PASS"
 
 // uncomment the following line if you are using airlift
 // #define USE_AIRLIFT
