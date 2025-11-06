@@ -96,8 +96,8 @@ Adafruit.io connects to [IFTTT.com](https://ifttt.com) for alerting. I use email
 2. Add ESP8266 board support (File → Preferences → Additional Board URLs)
 3. Install required libraries (Sketch → Include Library → Manage Libraries):
    - DHT sensor library by Adafruit
-   - Adafruit Unified Sensor
-   - Adafruit IO Arduino
+   - Adafruit Unified Sensor by Adafruit
+   - Adafruit IO Arduino by Adafruit
 
 ### Step 4: Upload the Code
 
