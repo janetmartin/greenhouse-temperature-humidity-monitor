@@ -1,14 +1,8 @@
-/************************ Adafruit IO Config *******************************/
+/************************ Adafruit IO and WIFI Config *******************************/
 
 // visit io.adafruit.com if you need to create an account,
 // or if you need your Adafruit IO key.
-
-//#define IO_USERNAME "IO_USERNAME"
-//#define IO_KEY "IO_KEY"
-//#define WIFI_SSID "WIFI_SSID"
-//#define WIFI_PASS "WIFI_PASS"
-
-//if not using gitignore to manage a password file like secrets.h, comment out below, and uncomment the definitions above
+//open the secrets_example.h file, add your customized info, save the file as secrets.h
 #include "secrets.h"
 /******************************* WIFI **************************************/
 
@@ -32,6 +26,7 @@
 // #define USE_WINC1500
 
 // comment out the following lines if you are using fona or ethernet
+
 #include "AdafruitIO_WiFi.h"
 
 #if defined(USE_AIRLIFT) || defined(ADAFRUIT_METRO_M4_AIRLIFT_LITE) ||         \

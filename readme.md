@@ -109,7 +109,7 @@ Adafruit.io connects to [IFTTT.com](https://ifttt.com) for alerting. I use email
 
 ## Configuration
 
-Edit these lines in config.h:
+Edit these lines in "secrets_example.h" and save the file as "secrets.h"
 
 ```cpp
 // Adafruit.io credentials

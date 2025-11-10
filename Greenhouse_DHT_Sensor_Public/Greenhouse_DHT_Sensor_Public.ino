@@ -12,10 +12,6 @@
 // All text above must be included in any redistribution.
 
 /************************** Configuration ***********************************/
-
-// edit the config.h tab and enter your Adafruit IO credentials
-// and any additional configuration needed for WiFi, cellular,
-// or ethernet clients.
 #include "config.h"
 /************************ Example Starts Here *******************************/
 #include <Adafruit_Sensor.h>
