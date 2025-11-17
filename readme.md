@@ -109,7 +109,7 @@ Adafruit.io connects to [IFTTT.com](https://ifttt.com) for alerting. I use email
 
 ## Configuration
 
-Edit these lines in "secrets_example.h" and save the file as "secrets.h"
+Edit these lines in "secrets_example.h" and save the file as "secrets.h".
 
 ```cpp
 // Adafruit.io credentials
@@ -160,6 +160,6 @@ Future iterations could include a custom enclosure, integrated fan control, and 
 - Inspired by the need to keep African Violets happy
 
 ![Hardware wiring](images/allegro-once-ina-while.jpg)
-*African violet, Allegro Once In a While*
+*African Violet, "Allegro Once In a While"*
 
 ---
